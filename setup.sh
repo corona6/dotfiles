@@ -1,5 +1,5 @@
 
-vars=".vimrc .gitconfig"
+vars=".vimrc .gitconfig .vim/"
 
 for file in $vars;
 do
