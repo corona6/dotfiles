@@ -1,5 +1,5 @@
 
-vars=".vimrc .gitconfig .vim/"
+vars=".vimrc .gitconfig .vim/ .tmux.conf"
 
 for file in $vars;
 do

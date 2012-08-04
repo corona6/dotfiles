@@ -10,4 +10,6 @@ filetype plugin indent on
 
 set autoindent
 syntax on
+set mouse=a
+set ttymouse=xterm2
 
