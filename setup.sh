@@ -1,8 +1,8 @@
-#!/bin/bash
 
-DOT_FILES=( .vimrc .gitconfig )
+vars=".vimrc .gitconfig"
 
-for file in ${DOT_FILES[@]}
+for file in $vars;
 do
+	rm $HOME/$file
 	ln -s $HOME/dotfiles/$file $HOME/$file
 done
