@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/.vim/vundle.git/
+set rtp+=~/dotfiles/.vim/bundle/vundle
 call vundle#rc()
 
 Bundle 'git://github.com/Shougo/unite.vim.git'
@@ -16,3 +16,4 @@ set ttymouse=xterm2
 set title
 set encoding=utf-8
 set fileencoding=utf-8
+set nobackup
