@@ -1,17 +1,15 @@
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/.vim/bundle/vundle
+set rtp+=~/dotfiles/.vim/vundle.git
 call vundle#rc()
 
 Bundle 'git://github.com/Shougo/unite.vim.git'
 Bundle 'git://github.com/tpope/vim-fugitive.git'
 Bundle 'Shougo/neocomplcache'
 
-filetype plugin indent on
-
-set autoindent
 syntax on
+set autoindent
 set mouse=a
 set ttymouse=xterm2
 set title
