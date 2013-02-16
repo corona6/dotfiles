@@ -1,12 +1,13 @@
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/.vim/vundle.git
+set rtp+=~/dotfiles/.vim/bundle/vundle
 call vundle#rc()
 
 Bundle 'git://github.com/Shougo/unite.vim.git'
 Bundle 'git://github.com/tpope/vim-fugitive.git'
 Bundle 'Shougo/neocomplcache'
+Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 
 syntax on
 set autoindent
