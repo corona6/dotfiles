@@ -19,6 +19,7 @@ set fileencoding=utf-8
 set nobackup
 set noswapfile
 set autoread
+set laststatus=2
 
 """ unite.vim
 " 入力モードで開始する
