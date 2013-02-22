@@ -21,6 +21,9 @@ set noswapfile
 set autoread
 set laststatus=2
 
+let g:Powerline_symbols = 'fancy'
+set t_Co=256
+
 """ unite.vim
 " 入力モードで開始する
 " " let g:unite_enable_start_insert=1
