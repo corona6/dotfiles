@@ -1,8 +1,8 @@
 
-vars=".vimrc .gitconfig .vim .tmux.conf"
+vars=".vimrc .gitconfig .vim .tmux.conf .tmux .zshrc"
 
 for file in $vars;
 do
-	mv -i $HOME/$file $HOME/dotfiles/$file
+	rm -i $HOME/$file
 	ln -s $HOME/dotfiles/$file $HOME/$file
 done
