@@ -1,12 +1,11 @@
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/.vim/bundle/vundle
+set rtp+=~/dotfiles/.vim/vundle
 call vundle#rc()
 
 Bundle 'git://github.com/Shougo/unite.vim.git'
-Bundle 'git://github.com/tpope/vim-fugitive.git'
-Bundle 'Shougo/neocomplcache'
+Bundle 'git://github.com/Shougo/neocomplcache.git'
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 
 syntax on
