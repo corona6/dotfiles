@@ -20,6 +20,8 @@ set noswapfile
 set autoread
 set laststatus=2
 
+au FileType ruby setl ts=2 sw=2 expandtab
+
 let g:Powerline_symbols = 'fancy'
 set t_Co=256
 

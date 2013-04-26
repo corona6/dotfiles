@@ -12,11 +12,18 @@ screen -rx || screen -D -RR
 fi
 fi
 
+autoload -Uz zmv
+alias zmv='noglob zmv -W'
+
 # Prompt
 autoload -U colors
 colors
 
 setopt prompt_subst
+
+setopt auto_cd
+setopt auto_pushd
+setopt share_history
 
 if [ "$SSH_CLIENT" ]; then
 	PROMPT="%B%{$fg[black]%}%T %{$fg[green]%}%m %~ %{%(?.$fg[cyan].$fg[red])%}%(?.(▰╹◡╹%).ヾ(｡>﹏<｡%)ﾉﾞ)%{$reset_color%}%b "
@@ -118,3 +125,11 @@ if [[ -d "$functionsd" ]] {
 	zstyle :compinstall filename '~/.zshrc'
 
 	autoload -Uz compinit && compinit
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+export PATH=$PATH:/usr/local/mysql/bin
+
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
