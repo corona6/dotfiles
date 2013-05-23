@@ -19,6 +19,7 @@ set nobackup
 set noswapfile
 set autoread
 set laststatus=2
+set hlsearch
 
 au FileType ruby setl ts=2 sw=2 expandtab
 
