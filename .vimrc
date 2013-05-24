@@ -9,6 +9,7 @@ Bundle 'git://github.com/Shougo/neocomplcache.git'
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 
 syntax on
+set number
 set autoindent
 set mouse=a
 set ttymouse=xterm2
