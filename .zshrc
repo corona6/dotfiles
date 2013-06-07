@@ -26,9 +26,9 @@ setopt auto_pushd
 setopt share_history
 
 if [ "$SSH_CLIENT" ]; then
-	PROMPT="%B%{$fg[black]%}%T %{$fg[green]%}%m %~ %{%(?.$fg[cyan].$fg[red])%}%(?.(▰╹◡╹%).ヾ(｡>﹏<｡%)ﾉﾞ)%{$reset_color%}%b "
+	PROMPT="%B%{$fg[black]%}%T %{$fg[green]%}%m %~ %{%(?.$fg[cyan].$fg[red])%}%(?. (。・ω ・。).ヾ(｡>﹏<｡%)ﾉﾞ)%{$reset_color%}%b "
 else
-	PROMPT="%B%{$fg[black]%}%T %{$fg[green]%}%~ %{%(?.$fg[cyan].$fg[red])%}%(?.(▰╹◡╹%).ヾ(｡>﹏<｡%)ﾉﾞ)%{$reset_color%}%b "
+	PROMPT="%B%{$fg[black]%}%T %{$fg[green]%}%~ %{%(?.$fg[cyan].$fg[red])%}%(?.(。・ω ・。).ヾ(｡>﹏<｡%)ﾉﾞ)%{$reset_color%}%b "
 fi
 
 #---------------------------------------------------------------------------
