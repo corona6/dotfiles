@@ -7,6 +7,7 @@ call vundle#rc()
 Bundle 'git://github.com/Shougo/unite.vim.git'
 Bundle 'git://github.com/Shougo/neocomplcache.git'
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
+Bundle 'git://github.com/vim-scripts/YankRing.vim'
 
 syntax on
 set number
